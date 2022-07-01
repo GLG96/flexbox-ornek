@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    background-color: black;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ 
+h2{
+    color: white;
+    font-weight: bolder;
+    margin-left: 3%;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+}
+ul li{
+    padding: 0 10px;
+    
+}
+ul li a {
+     
+    color: white;
+    text-decoration: none;
+}
+/* navbar bitti */
+
+/* card başlangıç */
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card-teknoloji{
+    width: 19rem;
+    border:1px solid #ccc;
+    margin:25px;
+    padding: 3px;
+}
+
+.card-img{
+    width:100%;
+}
+ 
+.teknoloji{
+    color: white;
+    background-color: red;
+    font-weight: bolder;
+    padding: 5px;
+}
+.card-img{
+    position: relative;
+}
+.card-img span{
+    position: absolute;
+    right: 0px;
+    border-radius: 15px;
+    padding: 3px;
+}
+.card-text h1{
+    border-bottom: 1px solid #ccc;
+}
+
+
+
+
